@@ -1,0 +1,41 @@
+.Products{
+    height: 100%;
+    background: linear-gradient(90deg, #F2F4F1 80%, #DCE1DA 20%);
+    
+}
+
+.Products__image{
+margin-top: 200px;
+margin-left: 290px;
+margin-bottom: 150px;
+}
+
+.Products__slider{
+    position: absolute;
+    background-color: orange;
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-top: 452px;
+    margin-left: 756px;
+    margin-right: 700px;
+    margin-bottom: 800px;
+}
+
+.products__title-1{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.products__title-2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.products__paragraph{
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,118 @@
+.Contact__container{
+    height: 100%;
+    background: linear-gradient(90deg, #F2F4F1 80%, #DCE1DA 20%);
+    margin-top: 494px;
+    height: 900px;
+}
+
+.Contact__tittles{
+    padding-top: 3px;
+    margin-bottom: 400px;
+    height: 2px;
+    width: 40%;
+    margin-right: 0px;
+}
+.contact__title-1{
+    color: black;
+    margin-left: 100px;
+    margin-top: 200px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 39px;
+    margin-bottom: 0px;
+  }
+  .contact__title-2{
+    color: orange;
+    margin-left: 100px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 39px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+  .contact__form{
+      width: 40%;
+      margin-left: 100px;
+      margin-right: 0;
+      border-left: 0;
+  }
+  .contact__form__input-name{
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      background-color:  #F2F4F1;
+      border-width: thin;
+      outline-width: 0;
+      width: 500px;
+      margin-bottom: 5px;
+  }
+  .contact__form__input-email{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color:  #F2F4F1;
+    border-width: thin;
+    outline-width: 0;
+    width: 500px;
+    margin-bottom: 5px;
+}
+.contact__form__input-phone{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color:  #F2F4F1;
+    border-width: thin;
+    outline-width: 0;
+    width: 500px;
+    margin-bottom: 5px;
+}
+.contact__form__input-message{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color:  #F2F4F1;
+    border-width: thin;
+    outline-width: 0;
+    width: 500px;
+    padding-top: 20px;
+    
+}
+
+  .contact__form__input-submit{
+    border-radius: 25px;
+    background-color: #e0752f;
+    width: 144px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 80px;
+    color: white;
+  }
+
+  .Contact__image{
+      position: absolute;
+      margin-left: 700px;
+      margin-top: 300px;
+      
+  }
+
+  .contact__footer{
+      margin-top: 100px;
+      background-color: #343434;
+      height: 100px;
+      
+  }
+
+  .contact__footer__text{
+      padding-top: 35px;
+      padding-left: 100px;
+  }
+
+  .footer__logo{
+      position: absolute;
+      margin-left: 1200px;
+      padding-right: 128px;
+      padding-top: 35px;
+  }
