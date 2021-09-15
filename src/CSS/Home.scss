@@ -1,12 +1,21 @@
 .body {
-  background: transparent url("../images/slider-1.png") 0% 0% repeat padding-box;
+  background: transparent  0% 0% repeat padding-box;
   background-size: cover;
   margin-left: 0px;
   margin-right: 0px;
-  height: 900px;
+  height: 800px;
   
 }
-
+.carousel-control-prev-icon{
+  height: 300px;
+}
+#carousel{
+  position: absolute;
+}
+.d-blockw-100{
+  width: 1423px;
+  height: 798px;
+}
 a {
   color: white;
   text-decoration: none;
@@ -17,8 +26,9 @@ p {
 }
 
 .main{
-
-  padding-top: 150px;
+  position: absolute;
+  padding-top: 240px;
+  overflow: visible;
 }
 .main__text__elements__title {
   font-family: "Poppins";
