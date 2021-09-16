@@ -6,8 +6,28 @@
   height: 800px;
   
 }
-.carousel-control-prev-icon{
-  height: 300px;
+span.carousel-control-next-icon{
+  
+  background-image: none;
+}
+
+span.carousel-control-prev-icon{
+  
+  background-image: none;
+}
+#carousel .carousel-indicators{
+  height: 100px;
+  margin-left: -920px;
+  margin-bottom: 60px;
+  
+  
+}
+#carousel button{
+    border-radius: 60%;
+    width: 14px;
+    height: 0px;
+    background: orange;
+    margin-right: 20px;
 }
 #carousel{
   position: absolute;

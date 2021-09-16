@@ -1,6 +1,6 @@
 .Products{
-    height: 100%;
-    background: linear-gradient(90deg, #F2F4F1 80%, #DCE1DA 20%);
+    height: 850px;
+    background: linear-gradient(90deg, #F2F4F1 70%, #DCE1DA 30%);
     
 }
 
@@ -10,16 +10,53 @@ margin-left: 290px;
 margin-bottom: 150px;
 }
 
+#Products__carousel{
+    position: absolute;
+    width: 1000px;
+    height: 552px;
+    margin-left: 300px;
+}
+#Products__carousel .carousel-item{
+    width: 1000px;
+    height: 552px;
+    margin-left: 100px;
+    padding-right: 100px;
+    margin-top: 150px;
+   
+}
+#Products__carousel span.carousel-control-next-icon{
+  
+    background-image: url("../images/Icon\ feather-arrow-right-circle.png");
+    margin-top: 700px;
+    position: absolute;
+    
+  }
+  
+  #Products__carousel span.carousel-control-prev-icon{
+    
+    background-image: url("../images/Icon\ feather-arrow-left-circle.png");
+    margin-left: 1600px;
+    margin-top: 700px;
+    position: absolute;
+  }
+  
+  #Products__carousel button{
+    
+    background-color: orange;
+    margin-left: 100px;
+    opacity: 0;
+    
+  }
 .Products__slider{
     position: absolute;
     background-color: orange;
     height: 300px;
     width: 500px;
     float: right;
-    margin-top: 452px;
-    margin-left: 756px;
+    margin-top: 365px;
+    margin-left: 800px;
     margin-right: 700px;
-    margin-bottom: 800px;
+    
 }
 
 .products__title-1{

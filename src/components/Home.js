@@ -2,7 +2,11 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import imagen from '../images/slider-1.png';
 import imagen2 from '../images/slider2.jpg';
+import imagen3 from '../images/slider3.jpg';
+
+
 const Home = () => {
+    
     return (
         <div className="body">
             
@@ -21,6 +25,15 @@ const Home = () => {
                             className="d-blockw-100"
                             src={imagen2}
                             alt="Second slide"
+                        />
+                        
+                    </Carousel.Item>
+
+                    <Carousel.Item interval={3000}>
+                        <img
+                            className="d-blockw-100"
+                            src={imagen3}
+                            alt="Third slide"
                         />
                         
                     </Carousel.Item>

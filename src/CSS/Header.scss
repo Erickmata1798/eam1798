@@ -32,7 +32,7 @@
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: rgb(0, 0, 0);
+  color: white;
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1.20rem;
@@ -41,7 +41,7 @@
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: rgb(238, 238, 238);
+  color: gray
 }
 
 .show-nav {
