@@ -4,7 +4,7 @@ import { Accordion} from 'react-bootstrap';
 
 const Services = () => {
     return (
-        <div className="Services__container">
+        <div className="Services__container" id="services">
             <img src={imagen} alt="Imagen" className="services__imagen"></img>
             <div className="services__accordion">
                 <Accordion defaultActiveKey="0">

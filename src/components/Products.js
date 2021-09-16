@@ -5,7 +5,7 @@ import imagen2 from '../images/section3-image.png';
 import imagen3 from '../images/section3-image.png';
 const Products = () => {
     return (
-        <div className="Products">
+        <div className="Products" id="products">
             <Carousel id="Products__carousel">
   <Carousel.Item>
     <img

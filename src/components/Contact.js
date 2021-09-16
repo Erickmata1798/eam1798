@@ -3,7 +3,7 @@ import imagen from '../images/contact-image.png';
 import footer_logo from '../images/footer-logo.png';
 const Contact = () => {
     return (
-        <div className="Contact__container">
+        <div className="Contact__container" id="contact">
             <img src={imagen} alt="Imagen" className="Contact__image"></img>
             <div className="Contact__tittles">
                 <p className="contact__title-1">Get in touch </p>

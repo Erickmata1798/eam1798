@@ -8,7 +8,7 @@ import imagen3 from '../images/slider3.jpg';
 const Home = () => {
     
     return (
-        <div className="body">
+        <div className="body" id="home">
             
             <Carousel className="test" id="carousel">
                 
