@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component} from 'react';
 import imagen from '../images/contact-image.png';
 import footer_logo from '../images/footer-logo.png';
 import axios from 'axios';
@@ -22,7 +22,7 @@ class Contact extends Component {
     saveContact = async (e) => {
         e.preventDefault();
 
-        const response = await axios.post('https://laravel-api-mundos-e.herokuapp.com/', this.state);
+        const response = await axios.post('http://laravel-api-mundos-e.herokuapp.com', this.state);
         if (response.data.status === 200) {
             //console.log(response.data.message);
             swal("Success!", response.data.message, "success");
