@@ -22,7 +22,7 @@ class Contact extends Component {
     saveContact = async (e) => {
         e.preventDefault();
 
-        const response = await axios.post('http://laravel-api-mundos-e.herokuapp.com', this.state);
+        const response = await axios.post('https://laravel-api-mundos-e.herokuapp.com', this.state);
         if (response.data.status === 200) {
             //console.log(response.data.message);
             swal("Success!", response.data.message, "success");
