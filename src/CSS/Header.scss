@@ -68,5 +68,24 @@
     padding: 0.5rem 0;
   }
 }
-
+@media screen and (min-width: 375px){
+  .nav-links a {
+    margin: 15px;
+    display: initial;
+    text-decoration: none;
+    padding: 1rem 0;
+    color: white;
+    transition: var(--mainTransition);
+    text-align: center;
+    font-size: 1.20rem;
+    font-weight: 600;
+    font-family: var(--main-font);
+    letter-spacing: var(--mainSpacing);
+    padding-left: 187px;
+    
+  }
+  .navbar1 {
+    border-bottom: none;
+  }
+}
 /* end of navbar */
