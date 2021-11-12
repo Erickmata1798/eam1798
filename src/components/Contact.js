@@ -51,25 +51,25 @@ class Contact extends Component {
                     <label>
                         Name
                         <br /> <input type="text" name="name" onChange={this.handleInput} value={this.state.name} className="contact__form__input-name" />
-                        <span className="text-danger">{this.state.error_list.name}</span>
+                        <br/><span className="text-danger">{this.state.error_list.name}</span>
                     </label>
                     <br />
                     <label>
                         Email
                         <br /> <input type="text" name="email" onChange={this.handleInput} value={this.state.email} className="contact__form__input-email" />
-                        <span className="text-danger">{this.state.error_list.email}</span>
+                        <br/><span className="text-danger">{this.state.error_list.email}</span>
                     </label>
                     <br />
                     <label>
                         Phone
                         <br /> <input type="text" name="phone" onChange={this.handleInput} value={this.state.phone} className="contact__form__input-phone" />
-                        <span className="text-danger">{this.state.error_list.phone}</span>
+                        <br/><span className="text-danger">{this.state.error_list.phone}</span>
                     </label>
                     <br />
                     <label>
                         Message
                         <br /> <input type="text" name="message" onChange={this.handleInput} value={this.state.message} className="contact__form__input-message" />
-                        <span className="text-danger">{this.state.error_list.message}</span>
+                        <br/><span className="text-danger">{this.state.error_list.message}</span>
                     </label>
                     <br /><input type="submit" value="Send" className="contact__form__input-submit" />
                 </form>
